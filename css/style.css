@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap');
+
+html {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: DM Sans;
+    background-color: #191919;
+    color: #fff;
+}
+header {
+    display: flex;
+    width: auto;
+    height: 119px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    display: block;
+    width: 178px;
+    height: 51px;
+    border-radius: 6px;
+    background-color: #118DA8;
+    border-style: none;
+    text-align: center;
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+}
+.button:hover{ 
+    box-shadow: #116d81 0px 0px 20px;
+    transition: all 0.25s ease-in-out;
+}
+
+.font-size_17px_line-height_27px_font-weight_300_color_118DA8 {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #118DA8;
+}
+
+.list_popular_topics {
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 50px;
+    padding-left: 0;
+}
+.list_popular_topics:hover {
+    cursor: pointer;
+    color: #118DA8;
+}
+
+.list_popular_topics li:last-child {
+    margin-right: 20px;
+}
+
+.main_baners {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_baners_slogan {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: auto;
+    padding-left: 100px;
+    padding-top: 120px;
+    
+}
+
+.main_baners_slogan h2 {
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+
+}
+
+.main_baners_slogan p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main_baners_slogan_platforms {
+    display: flex;
+    width: 245px;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-inline-start: 10px;
+}
+
+.main_player_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1355px;
+    height: 99px;
+    margin-top: 93px;
+    margin-bottom: 64px;
+}
+
+.main_player_header h2 {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+/* работа с основным с главным блоком */
+.main_player_block {
+    display: block;
+    width: 1355px;
+    height: 1689px;
+    padding: 0;
+    margin: 0;
+}
+
+.main_player_block ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: 100%;
+    padding: 0;
+    list-style: none;
+}
+/* работа с блоками */
+.main_player_block li {
+    display: flex;
+    flex-direction: row;
+    height: 432px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 32px;
+    padding: 40px;
+}
+
+.main_player_block li:first-child {
+    height: 505px;
+}
+
+/*работа с изображением*/
+.main_player_block li span img {
+    height: 432px;
+    width: 389px;
+}
+
+.main_player_block li:first-child span img {
+    height: 500px;
+    width: 389px;
+}
+
+/* работа с основными элементами в блоке*/
+.main_player_block li div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 53px;
+}
+
+/* работа со первым эллементом в блоке ~ текстово-блочным-эллементом */
+.main_player_block li div p:nth-of-type(1) {
+    display: block;
+    width: 73px;
+    height: 27px;
+    margin-top: 0;
+    background-color: #191919;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    pointer-events: none;
+}
+
+
+.main_player_block li:nth-of-type(2) div p:nth-of-type(1) {
+    width: 136px;
+}
+/* работа со вторым эллементом в блоке ~ первым текстовым-эллементом */
+.main_player_block li div p:nth-of-type(2) {
+    margin-bottom: 0;
+    margin-top: 48px;
+}
+/* работа с третьим эллементом в блоке ~ вторым текстовым-эллементом */
+.main_player_block li div p:nth-of-type(3) {
+    margin-top: 17px;
+    margin-bottom: 0;
+    font-size: 64px;
+    line-height: 70px;
+}
+/* работа с четвертым эллементом в блоке ~ третьим текстовым-эллементом */
+.main_player_block li div p:nth-of-type(4) {
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #FFFFFFB2;
+}
+
+/* работа с кнопкой (переприсваевание) */
+
+.main_player_block li div:last-child button {
+    width: 208px;
+    margin-top: 18px;
+}
+
+.main_aboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1350px;
+    padding-top: 260px;
+}
+
+.main_aboutUs div:first-of-type{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* работа с кнопкой-стрелкой */
+.main_aboutUs div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    cursor: pointer;
+    position: relative;
+    width: 112px;
+    height: 112px;
+    background-color: rgba(17, 141, 168, 1);
+    border-radius: 400px;
+}
+        
+.main_aboutUs div span span {
+    position: relative;
+    width: 72px;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    display: block;    
+}
+        
+.main_aboutUs div span span:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    top: 15px;
+    right: -5px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+    
+.main_aboutUs div span span::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    top: -15px;
+    right: -5px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+.main_aboutUs div p:not(:first-of-type) {
+    margin: 0;
+    padding-top: 28px;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #FFFFFFB2;
+}
+.main_aboutUs div p.font-size_17px_line-height_27px_font-weight_300_color_118DA8 {
+    font-size: 18px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.main_aboutUs div h2 {
+    margin: 0;
+    font-size: 65px;
+    font-weight: 300;
+    line-height: 79.2px;
+}
+
+/*блок регистрации */
+.main_registration {
+    display: block;
+    width: 1330px;
+    height: 387px;
+    background-color:rgba(0, 0, 0, 1);
+    border-radius: 32px;
+    margin-top: 202px;
+}
+.main_registration div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.main_registration div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main_registration div div p {
+    margin-top: 0;
+}
+.main_registration div div h2 {
+    font-size: 72px;
+    line-height: 79px;
+    font-weight: 300;
+    margin: 0;
+}
+.main_registration div div input:not(:last-child) {
+    width: 522px;
+    height: 82px;
+    border: 1px solid rgba(25, 25, 25, 1);
+    border-radius: 6px;
+    padding-left: 19px;
+    background-color: rgba(25, 25, 25, 1);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main_registration div div input:nth-of-type(2) {
+    margin-top: 20px;
+}
+.main_registration div div input:nth-of-type(3) {
+    width: 87px;
+    margin-top: 29px;
+}
+/* блок-соты рицензии */
+.main_reviews {
+    display: block;
+    margin-top: 200px;
+}
+
+.main_reviews ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 70px;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.main_reviews ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 373px;
+    height: 221px;
+    padding: 54px 0 50px 50px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border-radius: 32px;
+    background-color: #000;
+}
+.main_reviews ul li:nth-last-child(4) {
+    margin-right: 0px;
+}/* Без понятия почему то не работает если присваеваю стиль выше */
+.main_reviews ul li:nth-last-child(1) { 
+    margin-right: 0px;
+
+}
+.main_reviews ul li:nth-child(n+4) {
+    margin-bottom: 0px;
+}
+
+.main_reviews ul li p {
+    margin-top: 21px;
+    margin-bottom: 19px;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43.2px;
+}
+.main_reviews ul li p:last-child {
+    margin-top: 21px;
+    margin-bottom: 19px;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #FFFFFFB2 ;
+}
+.main_reviews ul li:last-of-type p:last-child {
+    margin-bottom: 0;
+}
+
+/* футер */
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    width: 1330px;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+    margin-right: 185px;
+    cursor: pointer;
+}
+
+.footer div div p:first-child{
+    margin: 0;
+}
+.footer div div img:not(:first-child) {
+    margin-left: 17px;
+}
+
+/* адаптив */
+
+@media (max-width: 1445px) {
+    html {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
