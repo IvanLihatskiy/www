@@ -51,7 +51,7 @@ header {
     margin-right: 50px;
     padding-left: 0;
 }
-.list_popular_topics:hover {
+.list_popular_topics li:hover {
     cursor: pointer;
     color: #118DA8;
 }
